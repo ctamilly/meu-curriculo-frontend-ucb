@@ -20,8 +20,3 @@ window.onscroll = function() {
     efeitoHabilidades()
 }
 
-function geraPdf() {
-    let doc = new jsPDF();
-    doc.fromHTML('<h1>Cristhiane Carvalho</h1>');
-    doc.save('curriculo.pdf');
-}
